@@ -1,0 +1,10 @@
+export { default as IconBookOpen } from './IconBookOpen';
+export { default as IconCloudLightning } from './IconCloudLightning';
+export { default as IconDiscord } from './IconDiscord';
+export { default as IconGithub } from './IconGithub';
+export { default as IconGrid } from './IconGrid';
+export { default as IconInstagram } from './IconInstagram';
+export { default as IconMail } from './IconMail';
+export { default as IconMessageSquare } from './IconMessageSquare';
+export { default as IconMoon } from './IconMoon';
+export { default as IconSearch } from './IconSearch';
