@@ -43,7 +43,7 @@ function App() {
         {/* Hero Image */}
         <div className="relative">
           <img
-            src="/371f7383a25e4f7994b79c37a9f4536f.jpg"
+            src="/welcome-page/371f7383a25e4f7994b79c37a9f4536f.jpg"
             alt="Henrick"
             className="w-[170px] h-[170px] rounded-full object-cover relative z-0"
           />
