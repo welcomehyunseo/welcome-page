@@ -5,7 +5,6 @@ import {
   IconMail,
   IconMessageSquare,
   IconMoon,
-  IconSearch,
 } from './icons'
 
 import React from 'react'
@@ -141,17 +140,6 @@ function App() {
         </section>
       </div>
       <div className="max-w-5xl w-full flex flex-col gap-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
-        <div className="sm:col-span-2 flex flex-row justify-start items-center text-left bg-white p-5 rounded-md">
-          <p className='text-bold text-lg whitespace-nowrap'>Projects</p>
-          <p className='px-3'>|</p>
-          <IconSearch className="w-7 h-7 text-gray-400 mr-2 shrink-0" />
-          <input
-            type="text"
-            placeholder="Search items..."
-            className="w-full text-lg bg-transparent text-gray-900 placeholder-gray-400 mt-1 focus:outline-none"
-          />
-        </div>
-        <div className="hidden sm:hidden md:block"></div>
         {pages.map((page: Page, i: number) => (
           <section
             key={i}
